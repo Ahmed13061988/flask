@@ -1,4 +1,4 @@
-from flask import Flask, render_template, jsonify
+from flask import Flask, render_template, jsonify, redirect, url_for
 import pandas as pd
 import json
 from json2html import *
@@ -9,10 +9,15 @@ df = pd.read_csv("addresses.csv")
 
 
 @app.route("/")
-def get_json():
+def home():
     with open("csvjson.json") as obj:
         data = obj.read()
     return render_template("index.html", title="page", jsonfile=json.dumps(data))
+
+
+@app.route("/about")
+def about():
+    return render_template("about.html")
 
 
 if __name__ == '__main__':

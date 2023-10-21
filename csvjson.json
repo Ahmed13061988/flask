@@ -1,42 +1,42 @@
 [
   {
-    "John": "Jack",
-    "Doe": "McGinnis",
-    "120 jefferson st.": "220 hobo Av.",
-    "Riverside": "Phila",
-    "NJ": "PA",
-    "08075": "09119"
+    "first_name": "Jack",
+    "last_name": "McGinnis",
+    "street": "220 hobo Av.",
+    "city": "Phila",
+    "state": "PA",
+    "zipcode": "09119"
   },
   {
-    "John": "John \"Da Man",
+    "first_name": "John \"Da Man",
     "Doe": "Repici",
-    "120 jefferson st.": "120 Jefferson St.",
-    "Riverside": "Riverside",
-    "NJ": "NJ",
-    "08075": "08075"
+    "street": "120 Jefferson St.",
+    "city": "Riverside",
+    "state": "NJ",
+    "zipcode": "08075"
   },
   {
-    "John": "Stephen",
+    "first_name": "Stephen",
     "Doe": "Tyler",
-    "120 jefferson st.": "7452 Terrace \"At the Plaza\" road",
-    "Riverside": "SomeTown",
-    "NJ": "SD",
-    "08075": 91234
+    "street": "7452 Terrace \"At the Plaza\" road",
+    "city": "SomeTown",
+    "state": "SD",
+    "zipcode": 91234
   },
   {
-    "John": "",
+    "first_name": "",
     "Doe": "Blankman",
-    "120 jefferson st.": "",
-    "Riverside": "SomeTown",
-    "NJ": "SD",
-    "08075": "00298"
+    "street": "",
+    "city": "SomeTown",
+    "state": "SD",
+    "zipcode": "00298"
   },
   {
-    "John": "Joan \"the bone\", Anne",
+    "first_name": "Joan \"the bone\", Anne",
     "Doe": "Jet",
-    "120 jefferson st.": "9th, at Terrace plc",
-    "Riverside": "Desert City",
-    "NJ": "CO",
-    "08075": "00123"
+    "street": "9th, at Terrace plc",
+    "city": "Desert City",
+    "state": "CO",
+    "zipcode": "00123"
   }
 ]
